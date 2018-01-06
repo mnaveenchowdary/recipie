@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-md-5">
+    <rb-recipie-list (recipieSelected)="selectedRecipie = $event"></rb-recipie-list>
+  </div>
+  <div class="col-md-7">
+    <rb-recipie-details [selectedRecipie]="selectedRecipie"></rb-recipie-details>
+  </div>
+</div>
